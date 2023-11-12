@@ -67,6 +67,7 @@ LANGUAGE ~German (by Niguno)~
 
 // Main component
 BEGIN @0
+LABEL ~Mathrim_Cauthon-Alcool~
 REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @1
 
 // Isaya : due to the AUTOTRA instruction, WeiDU will use the MCAlcool.tra file in the selected language
