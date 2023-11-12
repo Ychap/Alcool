@@ -4,7 +4,7 @@
 
 **Autor** : **Mathrim Cauthon**
 
-[Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=24079)
+[Link to original Mod Forum](https://www.baldursgateworld.fr/viewtopic.php?t=11730)
 
 [Link to original Mod Download](https://www.baldursgateworld.fr/viewtopic.php?t=24079)
 
