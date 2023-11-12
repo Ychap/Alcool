@@ -7,7 +7,7 @@
 @7    = ~J'ai toujours adoré aller dans les tavernes. Ma tante disait toujours à mon père qu'il risquait d'attraper des maladies en allant là-bas, mais j'en suis toujours sortie en bonne santé. Au fait, que veut dire "vénérienne" ?~
 @8    = ~Les distractions sont bien rares lors des veillées de l'Ordre. Torm me pardonnera bien cette entorse à la Règle.~
 @9    = ~Tout comme le loup cesse parfois de chasser sa proie pour s'amuser avec sa meute, nous devons nous détendre. Car consacrer nos pensées au seul Irenicus porterait préjudice à notre équilibre intérieur.~
-@10   = ~Mon corbeau, ce sera une occasion unique pour moi de vous dévoiler tous mes talents de conteur et de ménestrel. L'appel de la scène fait déjà chavirer mon coeur.~
+@10   = ~Mon corbeau, ce sera une occasion unique pour moi de vous dévoiler tous mes talents de conteur et de ménestrel. L'appel de la scène fait déjà chavirer mon cœur.~
 @11   = ~Une... une taverne ? Est-ce bien raisonnable ? Oncle Quayle m'a toujours dit qu'elles étaient si mal fréquentées. Mais en votre compagnie, j'aurais moins peur.~
 @12   = ~Ha, une soirée de beuverie ! Je commençais à me lasser du thé au navet. Quoique la bière de navet puisse être beaucoup plus dangereuse. Je me rappelle que Golodon adorait passer ses soirées à boire de la bière de navet. Jusqu'au jour où il est tombé amoureux fou d'une serveuse de la Couronne de Cuivre. Ils ont passé une nuit mémorable, et aucun habitant des Bas Quartiers n'a pu s'endormir à cause du bruit. Ils étaient merveilleusement assortis. Mais le lendemain matin, Golodon s'est aperçu que c'était une ogresse. Enfin, une demi-ogresse. Mais pas du tout une gnome. Leur rupture fut déchirante. Je crois que c'est à ce moment-là que Golodon a définitivement arrêté l'alcool. Mais toi, tu ne ferais pas cette erreur-là, <CHARNAME> ?~
 @13   = ~J'ai toujours gardé de bons souvenirs des soirées dans les tavernes. Les ivrognes surveillent beaucoup moins leur bourse une chope à la main.~
@@ -23,12 +23,12 @@
 @23   = ~Hé, Mazzy, tu nous accompagnes ?~
 @24   = ~Mazzy, tu m'accompagnes ?~
 @25   = ~Korgan, il faut que vous appreniez à être sérieux. Je suis une sainte lame d'Arvoreen. Je ne cours pas les tavernes comme une vulgaire ivrogne.~
-@26   = ~Et tu me laisserais affronter seul les dangers de cette terrible ville ? Tu es lâche et sans coeur après tout.~
+@26   = ~Et tu me laisserais affronter seul les dangers de cette terrible ville ? Tu es lâche et sans cœur après tout.~
 @27   = ~Je ne vous laisserai pas dire ça ! Très bien, je vous accompagne pour vous surveiller.~
 @28   = ~Je suis heureuse de voir que tu as un peu plus de bon sens que tu n'en donnes l'impression.~
 @29   = ~Nous... nous pourrions tout de même aller boire une tasse de thé tous ensemble ?~
 @30   = ~Je pense que je vais en profiter pour rejoindre ma tendre épouse et profiter de sa compagnie.~
-@31   = ~Tu es aussi pathétique que tous les membres de l'Ordre du Coeur Radieux réunis !~
+@31   = ~Tu es aussi pathétique que tous les membres de l'Ordre du Cœur Radieux réunis !~
 @32   = ~Merci de m'avoir ramené dans la bonne voie. J'étais prêt à me vautrer dans la débauche et à contrevenir à tous les commandements de l'ordre. Je vais plutôt passer la nuit à prier pour le succès de notre expédition.~
 @33   = ~Incapable de quitter ta légendaire austérité, <CHARNAME> ? Tant pis, je sais qu'il y a des lieux où je peux passer la nuit de façon plus agréable.~
 @34   = ~C'est dommage. Là tu me fais penser à ma tante Pétunia. Elle adorait casser l'ambiance. Sauf lors de la grande famine des Griffons, bien sûr. Ils avaient tous envie de manger du gnome, et toutes ses remarques acerbes ne lui ont servi à rien. Ils l'ont dévoré comme ça, telle qu'elle, avec ses vêtements. Sans même un navet. Quel gâchis.~
@@ -86,7 +86,7 @@
 @86   = ~Non, <CHARNAME>, non ! N'oblige pas Bouh à entrer dans cet endroit où les pirates chantent faux et essaieront de noyer Bouh dans de la bière !~
 @87   = ~T'inquiète pas grand singe. Si ton rat termine dans un tonneau, je te le rendrais quand je l'aurais vidé ! Et il sentira meilleur, parole de nain.~
 @88   = ~<CHARNAME>, pourquoi tenez-vous donc tant à aller là-bas ? Il y a tant d'autres endroits mieux fréquentés à Atkhatla.~
-@89   = ~Allons, Mazzy. Pourquoi une lame sainte telle que vous traite-t-elle avec mépris tous ces pauvres marins qui ne voient jamais la terre ferme, et qui profitent de ces rares occasions pour retrouver d'autres êtres humains ? N'avez-vous aucun coeur ?~
+@89   = ~Allons, Mazzy. Pourquoi une lame sainte telle que vous traite-t-elle avec mépris tous ces pauvres marins qui ne voient jamais la terre ferme, et qui profitent de ces rares occasions pour retrouver d'autres êtres humains ? N'avez-vous aucun cœur ?~
 @90   = ~(Et il faudra de surcroît supporter les sermons de la Petite Mère des Pauvres. Triste soirée en perspective.)~
 @91   = ~Le lieu de départ de toutes les expéditions vers les contrées éloignées. Le repère des matelots rescapés, qui d'un terrible naufrage, qui d'un néfaste abordage, qui encore d'un tranquille voyage. Et d'aucuns murmurent même que des pirates se cachent en ces lieux.~
 @92   = ~Méfie-toi de ces rumeurs. Elles s'avèrent bien souvent fausses, et la réalité est bien souvent plus dangereuse encore.~
@@ -96,7 +96,7 @@
 @96   = ~Regarder ces ivrognes avaler leurs breuvages ou écouter le tieffelin débiter ses sornettes. Charmant programme en perspective. Quelle autre idée as-tu en tête, <CHARNAME> ? Payer des tournées aux miséreux des environs ?~
 @97   = ~Mage rouge, quitte cette humeur si sombre. Je connais bien des pièces qui parlent de la puissance des mages de Thay.~
 @98   = ~Vraiment ? Oui, évidemment. La grandeur de Thay ne pouvait pas laisser indifférents tous ces ignorants qui ont besoin d'agiter une plume pour prouver qu'ils existent. J'espère au moins qu'elles sont bonnes.~
-@99   = ~Oui, il y a "Le mage malgré lui", qui raconte comment un paysan s'est retrouvé un jour considéré avec respect par tous les sorciers de Thay, "Les précieux ridicules" qui parle des moeurs thayviennes, ou la "Edwin, ou le Cocu Imaginaire", qui raconte...~
+@99   = ~Oui, il y a "Le mage malgré lui", qui raconte comment un paysan s'est retrouvé un jour considéré avec respect par tous les sorciers de Thay, "Les précieux ridicules" qui parle des mœurs thayviennes, ou la "Edwin, ou le Cocu Imaginaire", qui raconte...~
 @100  = ~Assez, assez ! Méfie-toi, tieffelin, je ne supporterais pas longtemps ces insolences !~
 @101  = ~Pardon, puissant mage. Je n'ai même pas mentionné les excellentes études sur la virilité comparée des mages et des... Edwin ? Pourquoi deviens-tu aussi rouge que tes vêtements ? Ce doit être l'émotion, j'imagine.~
 @102  = ~Alors Minsc et Bouh vont pouvoir te voir jouer en vrai, Haer'Dalis ? Bouh dit qu'il a très envie de te voir jouer. Quoi, Bouh ? Pourquoi veux-tu que l'on s'arrête avant pour acheter des tomates ?~
@@ -152,8 +152,8 @@
 @152  = ~Bien sûr que non, Jaheira. Mais ta manie de toujours reprendre les gens te destine plutôt à un rôle de souffleuse.~
 @153  = ~Et bien, nous pouvons y aller maintenant. <CHARNAME>, tu n'oublieras jamais cette soirée !~
 @154  = ~Voilà déjà une petite troupe, et je suis sûr que nous réussirons à embaucher quelques amateurs enthousiastes pour la compléter. Nous pouvons y aller maintenant. <CHARNAME>, tu n'oublieras jamais cette soirée !~
-@155  = ~Les Sept Vaux ? T'as pris un coup de marteau dans le crâne récemment ? La patronne veille sur ses serveuses comme une dragonne sur ses oeufs. Je suis sûr qu'elle leur a même mis une ceinture de chasteté. Bah ! Comme tu veux. Je t'aurais prévenu.~ ~Les Sept Vaux ? T'as pris un coup de marteau dans le crâne récemment ? La patronne veille sur ses serveuses comme une dragonne sur ses oeufs. Je suis sûr qu'elle leur a même mis une ceinture de chasteté. Bah ! Comme tu veux. Je t'aurais prévenue.~
-@156  = ~Bravo <CHARNAME>. N'écoute pas l'avis de cet ivrogne, une soirée sobre lui fera du bien. Ca n'a pas dû lui arriver depuis bien longtemps. En fait, Korgan, as-tu déjà été sobre dans ta vie ?~
+@155  = ~Les Sept Vaux ? T'as pris un coup de marteau dans le crâne récemment ? La patronne veille sur ses serveuses comme une dragonne sur ses œufs. Je suis sûr qu'elle leur a même mis une ceinture de chasteté. Bah ! Comme tu veux. Je t'aurais prévenu.~ ~Les Sept Vaux ? T'as pris un coup de marteau dans le crâne récemment ? La patronne veille sur ses serveuses comme une dragonne sur ses œufs. Je suis sûr qu'elle leur a même mis une ceinture de chasteté. Bah ! Comme tu veux. Je t'aurais prévenue.~
+@156  = ~Bravo <CHARNAME>. N'écoute pas l'avis de cet ivrogne, une soirée sobre lui fera du bien. Ça n'a pas dû lui arriver depuis bien longtemps. En fait, Korgan, as-tu déjà été sobre dans ta vie ?~
 @157  = ~Jamais. Même le lait de ma mère était aromatisé avec la bière qu'elle engloutissait. Et depuis que je t'ai vue, j'ai besoin d'une dose supplémentaire le soir pour essayer d'oublier que t'es toujours vivante.~
 @158  = ~Les Sept Vaux ? Même si c'est tenu par une femme, j'imagine que ce sera mieux que les tavernes que nous proposaient ton ami court sur patte. (Je me demande encore ce que je peux faire dans ce groupe.)~
 @159  = ~Tu veux savoir qui sera le plus court sur patte de nous deux une fois que je t'aurai tranché les jambes d'un bon coup de hache ?~
@@ -163,7 +163,7 @@
 @163  = ~Oh, que c'est mignon, Bouh. Mais oui, tu verras, il y a plein de gentilles petites damoiselles hamster.~
 @164  = ~Voici une bonne décision, <CHARNAME>. Korgan, je vous préviens : vous devrez bien vous tenir.~
 @165  = ~Bien me tenir ? Qu'est-ce que ça veut dire ?~
-@166  = ~Ca veut dire tout d'abord que vous laisserez votre hache à l'entrée.~
+@166  = ~Ça veut dire tout d'abord que vous laisserez votre hache à l'entrée.~
 @167  = ~Abandonner ma hache ? Hors de question ! Et puis quoi encore ? Laver mon armure ?~
 @168  = ~Ha, puisque vous en parlez. En effet, il va falloir vous nettoyer avant de venir. Même les mouches tombent quand elles s'approchent trop près de vous.~
 @169  = ~C'est une vieille tactique de guerre naine. Sans ça, j'aurais l'air désarmé au combat.~
@@ -171,7 +171,7 @@
 @171  = ~De pire en pire. Tu veux pas que je boive de l'eau non plus ?~
 @172  = ~Et bien, nous dirons deux verres de vin. Pas plus. Nous en avons assez de devoir toujours vous soulever jusqu'à votre chambre parce que vous avez trop bu.~
 @173  = ~Malheur de moi ! D'accord, d'accord Mazzy. Mais le premier qui raconte ce qui va se passer terminera avec une hache dans le gosier.~
-@174  = ~C'est dommage. Ca va sans doute beaucoup manquer d'animation.~
+@174  = ~C'est dommage. Ça va sans doute beaucoup manquer d'animation.~
 @175  = ~Ce n'est p-pas forcément si grave, Nalia. Un peu de calme nous fera du bien après toutes ces émotions.~
 @176  = ~Oui, mais j'ai peur que Korgan ne soit pas vraiment à l'aise là-bas. On m'a toujours dit que les nains n'étaient vraiment eux-mêmes qu'une bière à la main.~
 @177  = ~T'inquiète ma poulette, c'est pas une patronne aigrie qui va m'empêcher de me comporter comme un vrai nain.~

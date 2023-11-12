@@ -11,25 +11,28 @@ README ~alcool/readme-alcool_%LANGUAGE%.txt~ ~alcool/readme-alcool_english.txt~
 
 // BG2EE TRA compatibility
 ALWAYS
-ACTION_IF GAME_IS ~bg2ee~ THEN BEGIN
-  /* It's safe to convert for any language and for all operating systems, no test required */
-  // Borrowed from Edwin Romance: convert strings to UTF-8 for BGEE/BG2EE
+  
+    //Copies tra files into the autotra-folder (to leave the originals untouched)
+    DEFINE_ACTION_FUNCTION autotra_workaround BEGIN
+      COPY ~alcool/Tra/francais~  ~alcool/Tra/autotra/%LANGUAGE%~
+      COPY ~alcool/Tra/%LANGUAGE%~  ~alcool/Tra/autotra/%LANGUAGE%~
+    END
 
-  // setup-alcool.tra contains in game texts as well as installation texts
-  // and need to be converted
-  ACTION_DEFINE_ARRAY alcool_noconvert BEGIN END
-  ACTION_DEFINE_ARRAY alcool_reload BEGIN setup-alcool END
+    LAF autotra_workaround END
 
-  LAF HANDLE_CHARSETS
-    INT_VAR
-      infer_charset = 1
-    STR_VAR
-      tra_path = EVAL ~%MOD_FOLDER%~
-      // charset_table = alcool_charsets // Use HANDLE_CHARSETS built-in rule for charset choice
-      noconvert_array = alcool_noconvert
-      reload_array = alcool_reload
-  END
-END
+
+//  ACTION_DEFINE_ARRAY fl#noconvert BEGIN END
+
+ ACTION_DEFINE_ARRAY fl#reload BEGIN setup-alcool END
+
+    LAF HANDLE_CHARSETS
+      INT_VAR
+        infer_charsets = 1
+      STR_VAR
+        tra_path = EVAL ~alcool/Tra/autotra~
+//        noconvert_array = fl#noconvert
+        reload_array = fl#reload
+ END
 END
 
 // AUTO_TRA tells WeiDU to use by default the TRA file having the same name as
@@ -38,33 +41,33 @@ END
 // in the LANGUAGE definition below).
 // This removes the need to use COMPILE-USING directive for the COMPILE action
 // when the .d and .tra file have the same name
-AUTO_TRA ~alcool/%s~
+AUTO_TRA ~alcool/Tra/autotra/%s~
 
 
 LANGUAGE ~Francais~
 ~francais~
-~alcool/francais/setup-alcool.tra~
+~alcool/Tra/francais/setup-alcool.tra~
 
 LANGUAGE ~English (by Lollorian)~
 ~english~
-~alcool/english/setup-alcool.tra~
+~alcool/Tra/english/setup-alcool.tra~
 
 LANGUAGE ~Castellano (by ¿Quien si no?)~
 ~castellano~
-~alcool/castellano/setup-alcool.tra~
+~alcool/Tra/castellano/setup-alcool.tra~
 
 LANGUAGE ~Russian (by Austin & AERIE Team)~
 ~russian~
-~alcool/russian/setup-alcool.tra~
+~alcool/Tra/russian/setup-alcool.tra~
 
 LANGUAGE ~German (by Niguno)~
 ~german~
-~alcool/german/setup-alcool.tra~
+~alcool/Tra/german/setup-alcool.tra~
 
 
 // Main component
 BEGIN @0
-REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee~ @1
+REQUIRE_PREDICATE GAME_IS ~soa tob bgt bg2ee eet~ @1
 
 // Isaya : due to the AUTOTRA instruction, WeiDU will use the MCAlcool.tra file in the selected language
 COMPILE ~alcool/mcalcool.D~

@@ -5,6 +5,10 @@ Este mod suma una interacción entre los personajes al final del Capítulo 3, cuán
 
 Historial:
 
+v0.13
+Correct typos in mcalcool.d VICONJ to VICONIJ that prevented the game to proceed if Viconia was in the party.
+Update WeiDU to v249
+
 v0.12
 Añadida la compatibilidad con BG2EE
 Añadida la traducción al alemán (por Niguno)

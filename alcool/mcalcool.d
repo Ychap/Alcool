@@ -34,7 +34,7 @@ INTERJECT ARAN 47 MCProposition
 == AERIEJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Aerie") InParty("Aerie")~ THEN @11
 == JANJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Jan") InParty("Jan")~ THEN @12
 == YOSHJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Yoshimo") InParty("Yoshimo")~ THEN @13
-== VICONJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Viconia") InParty("Viconia")~ THEN @14
+== VICONIJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Viconia") InParty("Viconia")~ THEN @14
 == MINSCJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Minsc") InParty("Minsc")~ THEN @15
 == JAHEIRAJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Jaheira") InParty("Jaheira")~ THEN @16
 END BKORGAN MCDecisionTaverne
@@ -64,7 +64,7 @@ IF ~~ THEN BKORGAN MCRefus
 == KELDORJ IF ~!Dead("Keldorn") InParty("Keldorn")~ THEN @30
 == ANOMENJ IF ~!Dead("Anomen") InParty("Anomen") Global("AnomenIsNotKnight","GLOBAL",1)~ THEN @31
 = IF ~!Dead("Anomen") InParty("Anomen") Global("AnomenIsNotKnight","GLOBAL",0)~ THEN @32
-== VICONJ IF ~!Dead("Viconia") InParty("Viconia")~ THEN @33
+== VICONIJ IF ~!Dead("Viconia") InParty("Viconia")~ THEN @33
 == JANJ IF ~!Dead("Jan") InParty("Jan")~ THEN @34
 == YOSHJ IF ~!Dead("Yoshimo") InParty("Yoshimo")~ THEN @35
 == CERNDJ IF ~!Dead("Cernd") InParty("Cernd")~ THEN @36
@@ -87,7 +87,7 @@ IF ~~ THEN BKORGAN MCAccept
 == EDWINJ IF ~!Dead("Minsc") InParty("Minsc") !Dead("Edwin") InParty("Edwin")~ THEN @49
 == MINSCJ IF ~!Dead("Minsc") InParty("Minsc") !Dead("Edwin") InParty("Edwin")~ THEN @50
 == YOSHJ IF ~!Dead("Yoshimo") InParty("Yoshimo")~ THEN @51 DO ~SetGlobal("MCPropositionBM","GLOBAL", 1)~
-== VICONJ IF ~!Dead("Viconia") InParty("Viconia")~ THEN @52 DO ~SetGlobal("MCProposition7V","GLOBAL", 1)~
+== VICONIJ IF ~!Dead("Viconia") InParty("Viconia")~ THEN @52 DO ~SetGlobal("MCProposition7V","GLOBAL", 1)~
 == JANJ IF ~!Dead("Jan") InParty("Jan")~ THEN @53
 == KELDORJ IF ~!Dead("Keldorn") InParty("Keldorn")~ THEN @54 DO ~SetGlobal("MCProposition5C","GLOBAL", 1)~
 == JAHEIRAJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @55 DO ~SetGlobal("MCProposition7V","GLOBAL", 1)~
@@ -199,7 +199,7 @@ IF ~~ THEN BKORGAN MCChoix5C
  == HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Jan") InParty("Jan")~ THEN @141
  == JANJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Jan") InParty("Jan")~ THEN @142
  == HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @143
- == VICONJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @144
+ == VICONIJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @144
  == EDWINJ IF ~!Dead("Edwin") InParty("Edwin") !Dead("Haerdalis") InParty("Haerdalis")~ THEN @145
  == HAERDAJ IF ~!Dead("Edwin") InParty("Edwin") !Dead("Haerdalis") InParty("Haerdalis")~ THEN @146
  == EDWINJ IF ~!Dead("Edwin") InParty("Edwin") !Dead("Haerdalis") InParty("Haerdalis")~ THEN @147
@@ -242,7 +242,7 @@ IF ~~ THEN BKORGAN MCChoix7V
  == HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis")~ THEN @180
  == AERIEJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Aerie") InParty("Aerie")~ THEN @181
  == HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Aerie") InParty("Aerie")~ THEN @182
- == VICONJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @183
+ == VICONIJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @183
  == HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis") !Dead("Viconia") InParty("Viconia")~ THEN @184
 END ARAN MC_NEWARAN
 

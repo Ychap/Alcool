@@ -8,6 +8,10 @@ pour partir à SpellHold (juste avant la cutscene montrant l'évasion d'Irenicus)
 
 Historique des versions : 
 
+v0.13
+Correction de typos dans mcalcool.d VICONJ en VICONIJ qui empêchaient de continuer la jeu si Viconia était dans le groupe.
+Mise à jour avec WeiDU v249
+
 v0.12
 Ajout de la compatibilité avec BG2EEE
 Ajout de la traduction allemande (par Niguno)
