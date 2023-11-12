@@ -7,7 +7,7 @@ VERSION ~V0.13~
 
 // If the readme file is missing in the language chosen for the installation (not provided by translator)
 // use the English one
-README ~alcool/readme-alcool_%LANGUAGE%.txt~ ~alcool/readme-alcool_english.txt~
+README ~alcool/Readme/readme-alcool_%LANGUAGE%.txt~ ~alcool/Readme/readme-alcool_english.txt~
 
 // BG2EE TRA compatibility
 ALWAYS
