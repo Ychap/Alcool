@@ -14,12 +14,6 @@ END
 
 END
 
-// Modification du dialogue initial d'Aran pour retirer le lancement de la transition
-ALTER_TRANS ARAN BEGIN 47 END BEGIN 0 END
-BEGIN
-  "ACTION" ~~
-END
-
 INTERJECT ARAN 47 MCProposition
 == KORGANJ IF ~!Dead("Korgan") InParty("Korgan")~ THEN @1
 == MAZZYJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Mazzy") InParty("Mazzy")~ THEN @2
@@ -214,7 +208,7 @@ END ARAN MC_NEWARAN
 
 CHAIN
 IF ~~ THEN BKORGAN MCChoix7V
- @155 
+ @155
  == JAHEIRAJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @156
  == KORGANJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @157
  == EDWINJ IF ~!Dead("Edwin") InParty("Edwin")~ THEN @158
