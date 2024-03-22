@@ -13,8 +13,8 @@
 ------------
 
 
-Ce mod rajoute une interaction entre les personnages à la fin du chapitre 3, au moment où le joueur donne son accord à Aran Linvail
-pour partir à SpellHold (juste avant la cutscene montrant l'évasion d'Irenicus)
+Ce mod rajoute une interaction entre les personnages Ã  la fin du chapitre 3, au moment oÃ¹ le joueur donne son accord Ã  Aran Linvail
+pour partir Ã  SpellHold (juste avant la cutscene montrant l'Ã©vasion d'Irenicus)
 Korgan doit faire partie du groupe.  
 
 This mod adds an interaction between the characters at the end of Chapter 3, when the player agrees with Aran Linvail to go to SpellHold (just before the cutscene showing the escape of Irenicus)
@@ -34,7 +34,6 @@ Follow the prompt
 
 v0.14  
 Bugfix by Ychap: Allow departure for Spellhold cutscene to proceed when Korgan is not in party   
-----------------
 
 v0.13  
 Correct typos in mcalcool.d VICONJ to VICONIJ that prevented the game to proceed if Viconia was in the party.  
@@ -52,7 +51,7 @@ Updated with WeiDU v217
 v0.9  
 Traify by Lollorian  
 Added english translation (by Lollorian)  
-Added spanish translation (by ¿Quién si no? from Clan Reo)  
+Added spanish translation (by Â¿QuiÃ©n si no? from Clan Reo)  
 Updated with WeiDU v211  
 
 v0.8  
