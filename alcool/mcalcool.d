@@ -14,29 +14,23 @@ END
 
 END
 
-// Modification du dialogue initial d'Aran pour retirer le lancement de la transition
-ALTER_TRANS ARAN BEGIN 47 END BEGIN 0 END
-BEGIN
-  "ACTION" ~~
-END
-
 INTERJECT ARAN 47 MCProposition
 == KORGANJ IF ~!Dead("Korgan") InParty("Korgan")~ THEN @1
-== MAZZYJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Mazzy") InParty("Mazzy")~ THEN @2
-== KORGANJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Mazzy") InParty("Mazzy")~ THEN @3
-== MAZZYJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Mazzy") InParty("Mazzy")~ THEN @4
-== EDWINJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Edwin") InParty("Edwin")~ THEN @5
-== ANOMENJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Anomen") InParty("Anomen")~ THEN @6
-== NALIAJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Nalia") InParty("Nalia")~ THEN @7
-== KELDORJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Keldorn") InParty("Keldorn")~ THEN @8
-== CERNDJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Cernd") InParty("Cernd")~ THEN @9
-== HAERDAJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Haerdalis") InParty("Haerdalis")~ THEN @10
-== AERIEJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Aerie") InParty("Aerie")~ THEN @11
-== JANJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Jan") InParty("Jan")~ THEN @12
-== YOSHJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Yoshimo") InParty("Yoshimo")~ THEN @13
-== VICONIJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Viconia") InParty("Viconia")~ THEN @14
-== MINSCJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Minsc") InParty("Minsc")~ THEN @15
-== JAHEIRAJ IF ~!Dead("Korgan") InParty("Korgan") !Dead("Jaheira") InParty("Jaheira")~ THEN @16
+== MAZZYJ IF ~!Dead("Mazzy") InParty("Mazzy")~ THEN @2
+== KORGANJ IF ~!Dead("Mazzy") InParty("Mazzy")~ THEN @3
+== MAZZYJ IF ~!Dead("Mazzy") InParty("Mazzy")~ THEN @4
+== EDWINJ IF ~!Dead("Edwin") InParty("Edwin")~ THEN @5
+== ANOMENJ IF ~!Dead("Anomen") InParty("Anomen")~ THEN @6
+== NALIAJ IF ~!Dead("Nalia") InParty("Nalia")~ THEN @7
+== KELDORJ IF ~!Dead("Keldorn") InParty("Keldorn")~ THEN @8
+== CERNDJ IF ~!Dead("Cernd") InParty("Cernd")~ THEN @9
+== HAERDAJ IF ~!Dead("Haerdalis") InParty("Haerdalis")~ THEN @10
+== AERIEJ IF ~!Dead("Aerie") InParty("Aerie")~ THEN @11
+== JANJ IF ~!Dead("Jan") InParty("Jan")~ THEN @12
+== YOSHJ IF ~!Dead("Yoshimo") InParty("Yoshimo")~ THEN @13
+== VICONIJ IF ~!Dead("Viconia") InParty("Viconia")~ THEN @14
+== MINSCJ IF ~!Dead("Minsc") InParty("Minsc")~ THEN @15
+== JAHEIRAJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @16
 END BKORGAN MCDecisionTaverne
 
 APPEND BKORGAN
@@ -214,7 +208,7 @@ END ARAN MC_NEWARAN
 
 CHAIN
 IF ~~ THEN BKORGAN MCChoix7V
- @155 
+ @155
  == JAHEIRAJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @156
  == KORGANJ IF ~!Dead("Jaheira") InParty("Jaheira")~ THEN @157
  == EDWINJ IF ~!Dead("Edwin") InParty("Edwin")~ THEN @158
