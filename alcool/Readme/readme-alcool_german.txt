@@ -5,6 +5,10 @@ Dieser Mod fügt Gespräche zwischen den Charakteren am Ende von Kapitel 3 hinzu, 
 
 Chronik:
 
+v0.14
+Bugfix by Ychap: Allow departure for Spellhold cutscene to proceed when Korgan is not in party
+
+
 v0.13
 Correct typos in mcalcool.d VICONJ to VICONIJ that prevented the game to proceed if Viconia was in the party.
 Update WeiDU to v249

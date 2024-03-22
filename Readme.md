@@ -29,7 +29,11 @@ Run Setup-Alcool.exe
 Follow the prompt
 
 
-## Version History:  
+## Version History:   
+----------------
+
+v0.14  
+Bugfix by Ychap: Allow departure for Spellhold cutscene to proceed when Korgan is not in party   
 ----------------
 
 v0.13  
